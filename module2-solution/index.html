@@ -11,11 +11,13 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+
 }
 
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+  padding: 15px
 }
 
  
@@ -26,6 +28,8 @@
   .col-lg-1 {
   	width: 33.32%;
     float: left;
+    text-align: center
+
   }
   
 }
@@ -34,6 +38,8 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2 {
     float: left;
+     text-align: center
+
   }
   .col-md-1 {
     width: 50%;
@@ -49,6 +55,7 @@
   .col-sm-1 {
     width: 100%;
     float: left;
+    text-align: center
   }
 }
 
@@ -60,19 +67,26 @@
 
 <div class="row">
   <div class="col-lg-1 col-md-1 col-sm-1 ">
-  				<p class="section chicken">Chicken </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-       
+  		<div class="section">
+  			<span class="topcorner chicken">Chicken</span>
+  			<p><br><br>Roasting two chickens on one baking sheet is an effortless but strategic way to cook for a crowd.</p>
+  		 </div>
   </div>
   <div class="col-lg-1 col-md-1 col-sm-1">
-  				<p class="section beef">Beef </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<div class="section">
+  			<span class=" topcorner beef">Beef</span>           
+  			<p><br><br>Take the decision making out of your next meal. Explore classic beef dishes like meatloaf, chili, lasagna, meatballs, and steaks.</p>
+  		 </div>
   </div>
   <div class="col-lg-1 col-md-2 col-sm-1">
-  				<p class="section sushi">Sushi </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<div class="section">
+  			<span class=" topcorner sushi ">Sushi</span> 
+  			<p><br><br>Cucumber and avocado sushi! These rolls are easy to make and you can add either fake crab or smoked salmon. 
+
+</p>
   </div>
 </div>
+
 
 </body>
 </html>
